@@ -1,0 +1,17 @@
+h2{
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 5px;
+
+}
+p{
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.dashboard-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

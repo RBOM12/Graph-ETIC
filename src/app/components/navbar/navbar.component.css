@@ -13,7 +13,7 @@ nav ul {
 }
 
 nav a {
-  text-decoration: none;
+  text-decoration: solid;
   color: #333;
   font-weight: bold;
   text-align: right;

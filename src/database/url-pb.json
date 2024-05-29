@@ -1,0 +1,24 @@
+
+[
+  {
+    "anne": 2023,
+    "type": 1,
+    "url": "https://app.powerbi.com/reportEmbed?reportId=5f5c1072-7216-4af0-9afb-8c7771722d92&autoAuth=true&ctid=fd4cb2fb-3983-4628-95b9-54f637f99dd3"
+  },
+  {
+    "anne": 2024,
+    "type": 1,
+    "url": "https://www.google.com"
+  },
+  {
+    "anne": 2023,
+    "type": 2,
+    "url": "https://app.powerbi.com/reportEmbed?reportId=25d6e719-6577-4910-adb9-49d63c842a64&autoAuth=true&ctid=fd4cb2fb-3983-4628-95b9-54f637f99dd3"
+  },
+  {
+    "anne": 2024,
+    "type": 2,
+    "url": "https://www.google.com"
+  }
+
+  ]

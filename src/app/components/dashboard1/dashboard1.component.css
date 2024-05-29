@@ -1,7 +1,7 @@
 h2{
     border-radius: 10px;
     text-align: center;
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 
 }
 p{
@@ -12,12 +12,8 @@ p{
 .dashboard-content {
   display: flex;
   flex-direction: column;
-  height: calc(100% - 60px); /* Adjust this based on the height of h2 and p */
-}
-.dashboard-content iframe {
-  flex-grow: 1;
+  height: 100%;
   width: 100%;
-  border: none;
 }
 html, body {
   margin: 0;
@@ -25,4 +21,10 @@ html, body {
   height: 100%;
   width: 100%;
   overflow: hidden;
+}
+button{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
 }

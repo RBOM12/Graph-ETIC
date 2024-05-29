@@ -1,8 +1,11 @@
 <main>
   <section class="dashboard">
     <h2>Tableau de Bord Détaillé</h2>
-    <div class="dashboard-content">
-      <iframe title="RapportBDDV1" width="800" height="600" src="https://app.powerbi.com/reportEmbed?reportId=5f5c1072-7216-4af0-9afb-8c7771722d92&autoAuth=true&ctid=fd4cb2fb-3983-4628-95b9-54f637f99dd3" frameborder="0" allowFullScreen="true"></iframe>    </div>
+    <button type="button" (click)="switch(2023)"> 2023 </button>
+    <button type="button" (click)="switch(2024)" > 2024 </button>
+    <div >
+      <iframe id="PBI" class="dashboard-content" title="RapportBDDV1" width="100%" height="100%" src="about:blank" frameborder="0" allowFullScreen="true"></iframe>
+    </div>
   </section>
 </main>
 

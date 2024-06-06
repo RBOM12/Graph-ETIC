@@ -16,9 +16,16 @@ nav a {
   text-decoration: solid;
   color: #333;
   font-weight: bold;
-  text-align: right;
+  /*text-align: right;*/
+  margin-right: 20px;
 }
+nav a.active-link {
+  text-decoration: underline;
+  color: #d9534f; /* Rouge */
+}
+
 img {
-  border-radius: 50%;
-  margin-right: 10px;
+  /*border-radius: 50%;*/
+
+
 }

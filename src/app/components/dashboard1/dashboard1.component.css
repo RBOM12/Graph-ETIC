@@ -28,3 +28,12 @@ button{
     margin-left: 10px;
     text-align: center;
 }
+button:hover {
+  background-color: #ddd;
+  border-color: black;
+}
+
+button.active-button {
+  text-decoration: underline;
+  border-color : red;
+}

@@ -11,7 +11,7 @@ export class DashboardService {
     if (iframe && nav && footer) {
       const navHeight = nav.offsetHeight;
       const footerHeight = footer.offsetHeight;
-      const availableHeight = window.innerHeight - navHeight - footerHeight - window.innerHeight * 0.05;
+      const availableHeight = window.innerHeight - navHeight - footerHeight - 50 - window.innerHeight * 0.05;
       iframe.style.height = availableHeight + 'px';
     }
   }
@@ -36,6 +36,5 @@ export class DashboardService {
   }
     return url;
     }
-
 
 }

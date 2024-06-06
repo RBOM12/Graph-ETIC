@@ -14,25 +14,26 @@ import {DashboardService} from "../../service/dashboard.service";
 
 
 export class Dashboard1Component implements OnInit {
+
   constructor( private DS : DashboardService) { }
-  url = '';
   anne = 2023;
   type = 1;
-  ngOnInit() {
-    this.url = this.DS.getPBIUrl(this.anne, this.type)
-    this.DS.resizeIframe();
 
+  ngOnInit() {
+    this.DS.resizeIframe();
+    const iframe = document.getElementById('PBI') as HTMLIFrameElement;
+    iframe.src = this.DS.getPBIUrl(this.anne, this.type)
   }
 
   @HostListener('window:resize', ['$event'])
   onResize(event: Event) {
     this.DS.resizeIframe();
   }
-  switch ( annee: number){
-    // @ts-ignore
-    document.getElementById('PBI').src = this.DS.getPBIUrl(annee, this.type)
-
+  //change l'url du power bi
+  switch ( annee: number) {
+    const iframe = document.getElementById('PBI') as HTMLIFrameElement;
+    this.anne = annee;
+    iframe.src = this.DS.getPBIUrl(annee, this.type)
   }
-
 
 }

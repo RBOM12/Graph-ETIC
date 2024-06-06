@@ -1,12 +1,13 @@
 <nav>
-      <a href="https://www.etic-consulting.fr/" title = "Etic Consulting" target="_blank">
-        <img ngSrc="../../../assets/LogoETIC.png" alt="logo" width="55" height="22.5" >
-      </a>
 
       <ul>
-        <li><a [routerLink]="['/home']">Accueil</a></li>
-        <li><a [routerLink] = "['/dashboard1']">Tableau de Bord Copil</a></li>
-        <li><a [routerLink] = "['/dashboard2']">Tableau de Bord Détaillé</a></li>
+
+        <li><a [routerLink]="['/home']" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }">Accueil</a></li>
+        <a href="https://www.etic-consulting.fr/" title = "Etic Consulting" target="_blank">
+          <img ngSrc="../../../assets/LogoETIC.png" alt="logo" width="231" height="104" >
+        </a>
+        <li><a [routerLink]="['/dashboard1']" routerLinkActive="active-link">Tableau de Bord Copil</a></li>
+        <li><a [routerLink]="['/dashboard2']" routerLinkActive="active-link">Tableau de Bord Détaillé</a></li>
       </ul>
     </nav>
 
